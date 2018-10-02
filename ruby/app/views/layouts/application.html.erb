@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>SiteBug</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+	<%= link_to :create, create_bug_path() %>
+	<%= link_to :index, bugs_path() %>
+	<%= link_to :logout, logout_path(), method: :delete %>
+	<%= yield %>
+
+</body>
+</html>

@@ -1,0 +1,14 @@
+<div> Known bug </div>
+<ul>
+<% @bugs.each do |bug| %>
+  <li>
+  <div>
+    <h2> <%= link_to bug.title, bug_path(bug.id) %> </h2>
+    <% bug.user.each do |us| %>
+      <h4> assigned to :<%= us.username %></h4>
+    <% end %>
+    <p> <%= bug.description %></p>
+  </div>
+  </li>
+<% end %>
+</ul>

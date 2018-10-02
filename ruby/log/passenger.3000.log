@@ -1,0 +1,44 @@
+[ N 2018-10-02 14:20:37.2963 22088/T1 age/Wat/WatchdogMain.cpp:1300 ]: Starting Passenger watchdog...
+[ N 2018-10-02 14:20:37.3310 22091/T1 age/Cor/CoreMain.cpp:1310 ]: Starting Passenger core...
+[ N 2018-10-02 14:20:37.3313 22091/T1 age/Cor/CoreMain.cpp:256 ]: Passenger core running in multi-application mode.
+[ N 2018-10-02 14:20:37.3460 22091/T1 age/Cor/CoreMain.cpp:985 ]: Passenger core online, PID 22091
+[ N 2018-10-02 14:20:39.5120 22091/T5 age/Cor/SecurityUpdateChecker.h:517 ]: Security update check: no update found (next check in 24 hours)
+App 22127 output: 
+App 22127 output: NameError: uninitialized constant Mime::HTML
+App 22127 output: 	from /home/lievre/.rvm/gems/ruby-2.5.1/gems/web-console-2.3.0/lib/web_console/middleware.rb:58:in `acceptable_content_type?'
+App 22127 output: 	from /home/lievre/.rvm/gems/ruby-2.5.1/gems/web-console-2.3.0/lib/web_console/middleware.rb:36:in `block in call'
+App 22127 output: 	from /home/lievre/.rvm/gems/ruby-2.5.1/gems/web-console-2.3.0/lib/web_console/middleware.rb:18:in `catch'
+App 22127 output: 	from /home/lievre/.rvm/gems/ruby-2.5.1/gems/web-console-2.3.0/lib/web_console/middleware.rb:18:in `call'
+App 22127 output: 	from /home/lievre/.rvm/gems/ruby-2.5.1/gems/actionpack-5.1.2/lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+App 22127 output: 	from /home/lievre/.rvm/gems/ruby-2.5.1/gems/railties-5.1.2/lib/rails/rack/logger.rb:36:in `call_app'
+App 22127 output: 	from /home/lievre/.rvm/gems/ruby-2.5.1/gems/railties-5.1.2/lib/rails/rack/logger.rb:24:in `block in call'
+App 22127 output: 	from /home/lievre/.rvm/gems/ruby-2.5.1/gems/activesupport-5.1.2/lib/active_support/tagged_logging.rb:69:in `block in tagged'
+App 22127 output: 	from /home/lievre/.rvm/gems/ruby-2.5.1/gems/activesupport-5.1.2/lib/active_support/tagged_logging.rb:26:in `tagged'
+App 22127 output: 	from /home/lievre/.rvm/gems/ruby-2.5.1/gems/activesupport-5.1.2/lib/active_support/tagged_logging.rb:69:in `tagged'
+App 22127 output: 	from /home/lievre/.rvm/gems/ruby-2.5.1/gems/railties-5.1.2/lib/rails/rack/logger.rb:24:in `call'
+App 22127 output: 	from /home/lievre/.rvm/gems/ruby-2.5.1/gems/actionpack-5.1.2/lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+App 22127 output: 	from /home/lievre/.rvm/gems/ruby-2.5.1/gems/actionpack-5.1.2/lib/action_dispatch/middleware/request_id.rb:25:in `call'
+App 22127 output: 	from /home/lievre/.rvm/gems/ruby-2.5.1/gems/rack-2.0.5/lib/rack/method_override.rb:22:in `call'
+App 22127 output: 	from /home/lievre/.rvm/gems/ruby-2.5.1/gems/rack-2.0.5/lib/rack/runtime.rb:22:in `call'
+App 22127 output: 	from /home/lievre/.rvm/gems/ruby-2.5.1/gems/activesupport-5.1.2/lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+App 22127 output: 	from /home/lievre/.rvm/gems/ruby-2.5.1/gems/actionpack-5.1.2/lib/action_dispatch/middleware/executor.rb:12:in `call'
+App 22127 output: 	from /home/lievre/.rvm/gems/ruby-2.5.1/gems/actionpack-5.1.2/lib/action_dispatch/middleware/static.rb:125:in `call'
+App 22127 output: 	from /home/lievre/.rvm/gems/ruby-2.5.1/gems/rack-2.0.5/lib/rack/sendfile.rb:111:in `call'
+App 22127 output: 	from /home/lievre/.rvm/gems/ruby-2.5.1/gems/railties-5.1.2/lib/rails/engine.rb:522:in `call'
+App 22127 output: 	from /usr/lib/ruby/vendor_ruby/phusion_passenger/rack/thread_handler_extension.rb:97:in `process_request'
+App 22127 output: 	from /usr/lib/ruby/vendor_ruby/phusion_passenger/request_handler/thread_handler.rb:157:in `accept_and_process_next_request'
+App 22127 output: 	from /usr/lib/ruby/vendor_ruby/phusion_passenger/request_handler/thread_handler.rb:110:in `main_loop'
+App 22127 output: 	from /usr/lib/ruby/vendor_ruby/phusion_passenger/request_handler.rb:415:in `block (3 levels) in start_threads'
+App 22127 output: 	from /usr/lib/ruby/vendor_ruby/phusion_passenger/utils.rb:113:in `block in create_thread_and_abort_on_exception'
+
+[ N 2018-10-02 14:21:04.8390 22091/T8 age/Cor/CoreMain.cpp:641 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ N 2018-10-02 14:21:04.8390 22091/T1 age/Cor/CoreMain.cpp:1216 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ N 2018-10-02 14:21:04.8391 22091/T1 age/Cor/CoreMain.cpp:1117 ]: Checking whether to disconnect long-running connections for process 22127, application /home/lievre/ruby (development)
+[ N 2018-10-02 14:21:04.8393 22091/T8 Ser/Server.h:903 ]: [ServerThr.1] Freed 0 spare client objects
+[ N 2018-10-02 14:21:04.8394 22091/T8 Ser/Server.h:559 ]: [ServerThr.1] Shutdown finished
+[ N 2018-10-02 14:21:04.8394 22091/T9 Ser/Server.h:903 ]: [ServerThr.2] Freed 0 spare client objects
+[ N 2018-10-02 14:21:04.8394 22091/T9 Ser/Server.h:559 ]: [ServerThr.2] Shutdown finished
+[ N 2018-10-02 14:21:04.8396 22091/Tc Ser/Server.h:903 ]: [ApiServer] Freed 0 spare client objects
+[ N 2018-10-02 14:21:04.8397 22091/Tc Ser/Server.h:559 ]: [ApiServer] Shutdown finished
+[ N 2018-10-02 14:21:04.8398 22091/T1 age/Cor/CoreMain.cpp:1117 ]: Checking whether to disconnect long-running connections for process 22127, application /home/lievre/ruby (development)
+[ N 2018-10-02 14:21:05.0826 22091/T1 age/Cor/CoreMain.cpp:1295 ]: Passenger core shutdown finished
